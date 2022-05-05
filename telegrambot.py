@@ -1,7 +1,7 @@
 import telebot
 import yfinance as yf
 
-api_key = '5372043296:AAEMGZteUphHx9ltFpAOVfSuVqWZHEDpXA8'
+api_key = ''
 bot = telebot.TeleBot(api_key)
 
 @bot.message_handler(commands=['greet'])
